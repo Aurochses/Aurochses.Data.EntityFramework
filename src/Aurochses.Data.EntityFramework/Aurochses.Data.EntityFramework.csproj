@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <Authors>Aurochses</Authors>
+    <Company>Aurochses</Company>
+    <Copyright>Aurochses 2017</Copyright>
+    <Description>Layer to access database with Unit of Work, Repository and Entity classes for Entity Framework.</Description>
+    <PackageLicenseUrl>https://github.com/Aurochses/Aurochses.Data.EntityFramework/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Aurochses/Aurochses.Data.EntityFramework/wiki</PackageProjectUrl>
+    <PackageIconUrl>https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64</PackageIconUrl>
+    <RepositoryUrl>https://github.com/Aurochses/Aurochses.Data.EntityFramework</RepositoryUrl>
+    <PackageTags>Entity Framework entity-framework EF Data O/RM UnitOfWork Repository Entity</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.4\Aurochses.Data.EntityFramework.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard1.4\Aurochses.Data.EntityFramework.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
