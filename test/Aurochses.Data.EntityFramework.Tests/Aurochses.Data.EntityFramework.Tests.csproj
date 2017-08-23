@@ -10,8 +10,4 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\src\Aurochses.Data.EntityFramework\Aurochses.Data.EntityFramework.csproj" />
-  </ItemGroup>
-
 </Project>
