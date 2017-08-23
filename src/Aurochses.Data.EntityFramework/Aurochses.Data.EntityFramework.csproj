@@ -2,18 +2,6 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
-    <Version>1.0.0</Version>
-    <Authors>Aurochses</Authors>
-    <Company>Aurochses</Company>
-    <Copyright>Aurochses 2017</Copyright>
-    <Description>Layer to access database with Unit of Work, Repository and Entity classes for Entity Framework.</Description>
-    <PackageLicenseUrl>https://github.com/Aurochses/Aurochses.Data.EntityFramework/blob/master/LICENSE.txt</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/Aurochses/Aurochses.Data.EntityFramework/wiki</PackageProjectUrl>
-    <PackageIconUrl>https://www.gravatar.com/avatar/cb5925a77e502401f95bf2738b123994?s=64</PackageIconUrl>
-    <RepositoryUrl>https://github.com/Aurochses/Aurochses.Data.EntityFramework</RepositoryUrl>
-    <PackageTags>Entity Framework entity-framework EF Data O/RM UnitOfWork Repository Entity</PackageTags>
-  </PropertyGroup>
-  <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{23952331-D586-4964-9FFB-E674991618E8}</ProjectGuid>
