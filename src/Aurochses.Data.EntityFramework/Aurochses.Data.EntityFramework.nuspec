@@ -4,7 +4,6 @@
     <id>Aurochses.Data.EntityFramework</id>
     <version>1.2.0-preview</version>
     <authors>Aurochses</authors>
-    <company>Aurochses</company>
     <copyright>Aurochses 2017</copyright>
     <description>Layer to access database with Unit of Work, Repository and Entity classes for Entity Framework.</description>
     <licenseUrl>https://github.com/Aurochses/Aurochses.Data.EntityFramework/blob/master/LICENSE.txt</licenseUrl>
