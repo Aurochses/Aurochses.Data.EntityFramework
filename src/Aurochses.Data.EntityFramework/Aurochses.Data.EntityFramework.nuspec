@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Aurochses.Data.EntityFramework</id>
-    <version>1.0.0</version>
+    <version>1.2.0-preview</version>
     <authors>Aurochses</authors>
     <company>Aurochses</company>
     <copyright>Aurochses 2017</copyright>
