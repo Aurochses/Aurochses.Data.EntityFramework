@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F3F58D23-D88F-4FCD-914C-50EB584E7A68}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1F2BA610-387D-485E-9517-5521A7CCCEBD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aurochses.Data.EntityFramework.Tests", "test\Aurochses.Data.EntityFramework.Tests\Aurochses.Data.EntityFramework.Tests.csproj", "{9E3C7EE3-48E5-4E8A-8225-6791DA749770}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurochses.Data.EntityFramework", "src\Aurochses.Data.EntityFramework\Aurochses.Data.EntityFramework.csproj", "{23952331-D586-4964-9FFB-E674991618E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurochses.Data.EntityFramework.Tests", "test\Aurochses.Data.EntityFramework.Tests\Aurochses.Data.EntityFramework.Tests.csproj", "{C80CC25D-ACB8-4600-AE2A-731B877A3113}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,20 +17,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9E3C7EE3-48E5-4E8A-8225-6791DA749770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9E3C7EE3-48E5-4E8A-8225-6791DA749770}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9E3C7EE3-48E5-4E8A-8225-6791DA749770}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9E3C7EE3-48E5-4E8A-8225-6791DA749770}.Release|Any CPU.Build.0 = Release|Any CPU
 		{23952331-D586-4964-9FFB-E674991618E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{23952331-D586-4964-9FFB-E674991618E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23952331-D586-4964-9FFB-E674991618E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23952331-D586-4964-9FFB-E674991618E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C80CC25D-ACB8-4600-AE2A-731B877A3113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C80CC25D-ACB8-4600-AE2A-731B877A3113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C80CC25D-ACB8-4600-AE2A-731B877A3113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C80CC25D-ACB8-4600-AE2A-731B877A3113}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{9E3C7EE3-48E5-4E8A-8225-6791DA749770} = {1F2BA610-387D-485E-9517-5521A7CCCEBD}
 		{23952331-D586-4964-9FFB-E674991618E8} = {F3F58D23-D88F-4FCD-914C-50EB584E7A68}
+		{C80CC25D-ACB8-4600-AE2A-731B877A3113} = {1F2BA610-387D-485E-9517-5521A7CCCEBD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {317FA272-E10A-402B-AC3D-03048BBF12CB}
 	EndGlobalSection
 EndGlobal
