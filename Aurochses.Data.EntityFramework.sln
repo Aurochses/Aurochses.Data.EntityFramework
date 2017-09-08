@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1F2BA610-3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurochses.Data.EntityFramework", "src\Aurochses.Data.EntityFramework\Aurochses.Data.EntityFramework.csproj", "{23952331-D586-4964-9FFB-E674991618E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurochses.Data.EntityFramework.Tests", "test\Aurochses.Data.EntityFramework.Tests\Aurochses.Data.EntityFramework.Tests.csproj", "{F54DDE3E-8DDE-4C7B-92F9-26D81169866A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aurochses.Data.EntityFramework.Tests", "test\Aurochses.Data.EntityFramework.Tests\Aurochses.Data.EntityFramework.Tests.csproj", "{C80CC25D-ACB8-4600-AE2A-731B877A3113}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,17 +21,17 @@ Global
 		{23952331-D586-4964-9FFB-E674991618E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23952331-D586-4964-9FFB-E674991618E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23952331-D586-4964-9FFB-E674991618E8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F54DDE3E-8DDE-4C7B-92F9-26D81169866A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F54DDE3E-8DDE-4C7B-92F9-26D81169866A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F54DDE3E-8DDE-4C7B-92F9-26D81169866A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F54DDE3E-8DDE-4C7B-92F9-26D81169866A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C80CC25D-ACB8-4600-AE2A-731B877A3113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C80CC25D-ACB8-4600-AE2A-731B877A3113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C80CC25D-ACB8-4600-AE2A-731B877A3113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C80CC25D-ACB8-4600-AE2A-731B877A3113}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{23952331-D586-4964-9FFB-E674991618E8} = {F3F58D23-D88F-4FCD-914C-50EB584E7A68}
-		{F54DDE3E-8DDE-4C7B-92F9-26D81169866A} = {1F2BA610-387D-485E-9517-5521A7CCCEBD}
+		{C80CC25D-ACB8-4600-AE2A-731B877A3113} = {1F2BA610-387D-485E-9517-5521A7CCCEBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {317FA272-E10A-402B-AC3D-03048BBF12CB}
