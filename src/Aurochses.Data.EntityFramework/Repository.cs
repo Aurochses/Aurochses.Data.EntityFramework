@@ -31,10 +31,7 @@ namespace Aurochses.Data.EntityFramework
         /// Gets the database context.
         /// </summary>
         /// <value>The database context.</value>
-        protected DbContext DbContext
-        {
-            get;
-        }
+        protected DbContext DbContext { get; }
 
         /// <summary>
         /// Gets the database set.
@@ -44,7 +41,7 @@ namespace Aurochses.Data.EntityFramework
 
         private IQueryable<TEntity> Where(TType id)
         {
-            return DbSet.Where(x => (object) x.Id == (object) id);
+            return DbSet.Where(x => x.Id.Equals(id));
         }
 
         /// <summary>
