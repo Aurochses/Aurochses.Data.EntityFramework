@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Aurochses.Data.EntityFramework</id>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <authors>Aurochses</authors>
     <copyright>Aurochses 2017</copyright>
     <description>Layer to access database with Unit of Work, Repository and Entity classes for Entity Framework.</description>
