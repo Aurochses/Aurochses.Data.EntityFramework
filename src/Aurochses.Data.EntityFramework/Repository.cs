@@ -41,7 +41,7 @@ namespace Aurochses.Data.EntityFramework
 
         private IQueryable<TEntity> Where(TType id)
         {
-            return DbSet.Where(x => x.Id.Equals(id));
+            return DbSet.Where(x => (object) x.Id == (object) id);
         }
 
         /// <summary>
