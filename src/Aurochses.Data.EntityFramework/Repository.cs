@@ -415,15 +415,6 @@ namespace Aurochses.Data.EntityFramework
         }
 
         /// <summary>
-        /// Deletes the specified entity by identifier.
-        /// </summary>
-        /// <param name="id">The identifier.</param>
-        public virtual void Delete(TType id)
-        {
-            Delete(this.Get(id));
-        }
-
-        /// <summary>
         /// Deletes the specified entity.
         /// </summary>
         /// <param name="entity">The entity.</param>
