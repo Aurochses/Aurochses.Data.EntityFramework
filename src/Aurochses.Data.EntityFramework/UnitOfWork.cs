@@ -133,7 +133,7 @@ namespace Aurochses.Data.EntityFramework
         /// <typeparam name="TType">The type of the t type.</typeparam>
         /// <param name="repository">The repository.</param>
         protected void RegisterRepository<TEntity, TType>(IRepository<TEntity, TType> repository)
-            where TEntity : IEntity<TType>
+            where TEntity : class, IEntity<TType>
         {
             _repositories[typeof(TEntity)] = repository;
         }
@@ -145,7 +145,7 @@ namespace Aurochses.Data.EntityFramework
         /// <typeparam name="TType">The type of the t type.</typeparam>
         /// <returns>IRepository&lt;TEntity, TType&gt;.</returns>
         protected virtual IRepository<TEntity, TType> GetRepository<TEntity, TType>()
-            where TEntity : IEntity<TType>
+            where TEntity : class, IEntity<TType>
         {
             return (IRepository<TEntity, TType>)_repositories[typeof(TEntity)];
         }
