@@ -11,6 +11,11 @@
         public const string NVarChar = "nvarchar";
 
         /// <summary>
+        /// The NVarChar max
+        /// </summary>
+        public const string NVarCharMax = "nvarchar(max)";
+
+        /// <summary>
         /// The Money
         /// </summary>
         public const string Money = "decimal(18,4)";
@@ -26,11 +31,11 @@
         public const string Date = "date";
 
         /// <summary>
-        /// Specifies the length of the n variable character.
+        /// Gets NVarChar with specified length.
         /// </summary>
         /// <param name="length">The length.</param>
         /// <returns>System.String.</returns>
-        public static string SpecifyNVarCharLength(int length = ColumnLengths.DefaultNVarChar)
+        public static string GetNVarCharWithSpecifiedLength(int length = ColumnLengths.DefaultNVarChar)
         {
             return $"{NVarChar}({length})";
         }
