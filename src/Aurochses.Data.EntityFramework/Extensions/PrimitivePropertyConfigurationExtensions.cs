@@ -2,12 +2,12 @@
 using System.Data.Entity.Infrastructure.Annotations;
 using System.Data.Entity.ModelConfiguration.Configuration;
 
-namespace Aurochses.Data.EntityFramework.Helpers
+namespace Aurochses.Data.EntityFramework.Extensions
 {
     /// <summary>
-    /// Class PrimitivePropertyConfigurationHelpers
+    /// Class PrimitivePropertyConfigurationExtensions
     /// </summary>
-    public static class PrimitivePropertyConfigurationHelpers
+    public static class PrimitivePropertyConfigurationExtensions
     {
         /// <summary>
         /// Set Unique Index
