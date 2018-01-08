@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
-using Aurochses.Data.Helpers;
 using Aurochses.Data.Query;
 
 namespace Aurochses.Data.EntityFramework
