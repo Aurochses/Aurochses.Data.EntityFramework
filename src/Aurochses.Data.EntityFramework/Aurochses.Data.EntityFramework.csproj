@@ -38,18 +38,15 @@
     <Compile Include="DbContextBase.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="EntityNoneDatabaseGeneratedIdentifier.cs" />
-    <Compile Include="Helpers\PrimitivePropertyConfigurationHelpers.cs" />
-    <Compile Include="MsSql\ColumnLengths.cs" />
-    <Compile Include="MsSql\ColumnTypes.cs" />
-    <Compile Include="MsSql\Functions.cs" />
+    <Compile Include="Extensions\PrimitivePropertyConfigurationExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />
     <Compile Include="TransactionUtility.cs" />
     <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Aurochses.Data, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Aurochses.Data.2.0.2\lib\netstandard2.0\Aurochses.Data.dll</HintPath>
+    <Reference Include="Aurochses.Data, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Aurochses.Data.2.0.3\lib\netstandard2.0\Aurochses.Data.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
